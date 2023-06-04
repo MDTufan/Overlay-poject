@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ img {
+    width: 100%;
+ }
+.width1 {
+    width: 400px  !important;
+    height:300px !important;
+    margin-bottom: 30px;
+   
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+.one {
+   
+    position: relative;
+    overflow: hidden;
+    
+   
+  }
+  
+  
+  .overlay11 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #110a37;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  .one:hover .overlay11 {
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb */
+.two {
+   
+    position: relative;
+    overflow: hidden;
+    
+   
+  }
+  
+  
+  .overlay22 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #11036573;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    transition: all 1s ease;
+  }
+  .two:hover .overlay22 {
+    opacity: 1;
+  }
+  
+
+
+/* 111111111111111111 */
+
+.six {
+   
+    position: relative;
+    overflow: hidden;
+    
+   
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #110a37;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: all 1s ease;
+  }
+  .six:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+   .text5{
+    /* text-align: center; */
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+    color:#fff;
+    position: absolute;
+  }
+/* 222222222222222222222 */
+.seven {
+    
+    position: relative;
+    overflow: hidden;
+   
+    
+   
+  }
+  
+  
+  .overlay1 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #110a37;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: all 1s ease;
+  }
+  .seven:hover .overlay1 {
+    
+    height: 100%;
+  }
+
+  /* 33333333333333333 */
+  .eight {
+   
+    position: relative;
+    overflow: hidden;
+   
+    
+   
+  }
+  
+  
+  .overlay3 {
+    position: absolute;
+    bottom:0;
+    left: 100%;
+    right: 0;
+    background-color: #110a37;
+    overflow: hidden;
+    width:0;
+    height:100%;
+    transition: all 1s ease;
+  }
+  .eight:hover .overlay3 {
+    
+   width: 100%;
+   left: 0;
+  }
+
+  /* 44444444444444 */
+  .teen {
+   
+    position: relative;
+    overflow: hidden;
+   
+    
+   
+  }
+  
+  
+  .overlay4 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #110a37;
+    overflow: hidden;
+    width:0;
+    height:100%;
+    transition: all 1s ease;
+  }
+  .teen:hover .overlay4 {
+    
+   width: 100%;
+  }
+
+  /* 5555555555555555555 */
+  .vip {
+    
+    position: relative;
+    overflow: hidden;
+   
+    
+   
+  }
+  
+  
+  .overlay5 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: #110a37;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+    transform: scale(0);
+    transition: all 1s ease;
+  }
+  .vip:hover .overlay5 {
+    
+   transform: scale(1);
+  }
+  /* 6666666666666666666 */
+  .vip1 {
+   
+    position: relative;
+    overflow: hidden;
+    
+   
+    
+   
+  }
+  
+  
+  .overlay6 {
+    position: absolute;
+    bottom:0;
+   
+    background-color: #43f60791;
+    overflow: hidden;
+    width:100%;
+   opacity: 0;
+
+    transition: all 1s ease;
+  }
+  .title {
+    text-align: center;
+    color:black;
+  }
+  .vip1:hover .overlay6 {
+   
+   opacity: 1;
+  }
+/* 777777777777777777777 */
+.vip2 {
+   
+    position: relative;
+    overflow: hidden;
+    
+   
+    
+   
+  }
+  
+  
+  .overlay7 {
+    position: absolute;
+    bottom:0;
+   
+    background-color: #c80808;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+   opacity: 0;
+
+    transition: all 2s ease;
+  }
+  .vip2:hover .overlay7 {
+   
+   opacity: 1;
+  }
+
+  .icon {
+    margin-top: 50px;
+    font-size: 70px;
+    text-align: center;
+    
+    color: #fff;
+  }
+  
+  /* toli section */
+  
+  .toli {
+   
+    width: 200px;
+     height: 150px;
+     background-color: #c80808;
+  }
+  .toli1 {
+   
+    width: 200px;
+     height: 150px;
+     background-color: #13093c;
+     transition: 1.5s;
+  }
+
+  .toli1:hover {
+    transform: translate(50%,50%);
+  }
+/* 1111111111111111111 */
+
+.rotate {
+   
+    width: 200px;
+     height: 200px;
+     background-color: #c80808;
+  }
+  .rotate-1 {
+   
+    width: 200px;
+     height: 200px;
+     background-color: #13093c;
+     transition: 1.5s;
+  }
+
+  .rotate-1:hover {
+    transform: rotate(180deg);
+  }
+
+  /* 2222222222222222 */
+  .scale {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+   
+  }
+  .scale-1 {
+    position: absolute;
+     width: 100px;
+     height: 100px;
+     background-color: #c80808;
+    margin:49px 0px 0px 49px;
+     transition: 1.5s;
+  }
+  .scale-1:hover {
+    transform: scale(1.7);
+  }
+
+  /* 33333333333333333 */
+  .skew {
+    width: 200px;
+    height: 200px;
+    background-color: #c80808;
+    transition: 1.5s;
+  }
+
+  .skew:hover {
+    transform: skew(40deg);
+  }
